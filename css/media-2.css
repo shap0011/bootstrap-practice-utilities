@@ -1,0 +1,37 @@
+
+/* Mobile */
+/* Extra small */
+/* @media (max-width: 480px) { */
+@media (max-width: 575px) {
+    /* styles */
+}
+
+/* Extra small devices */
+/* Small */
+@media (min-width: 576px) and (max-width: 767px) {
+    /* styles */
+}
+
+/* Small tablets */
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* styles */
+}
+
+/* Large tablets/laptops */
+/* Large */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* styles */
+}
+
+/* Desctops */
+/* X-Large */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    /* styles */
+}
+
+/* Extra large screens */
+/* XX-Large */
+@media (min-width: 1400px) {
+    /* styles */
+}

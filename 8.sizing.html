@@ -10,11 +10,13 @@
 
     <style>
         div {
-            min-height: 150px;
-            min-width: 150px;
-            margin: 20px;
-            display: inline-block;
+            margin: 10px;
+            color: white;
+            padding: 5px;
+            /* min-height: 50px; */
+            /* display: inline-block; */
         }
+
         body {
             margin-bottom: 500px;
         }
@@ -22,6 +24,30 @@
 </head>
 
 <body>
+
+    
+    <!-- SIZINGS RELATIVE TO PARENT -->
+
+    <div class="bg-primary w-25">Width 25%</div>
+    <div class="bg-primary w-50">Width 505%</div>
+    <div class="bg-primary w-75">Width 75%</div>
+    <div class="bg-primary w-auto">Width auto</div>
+
+    <div class="bg-dark" style="height: 300px;">
+       <div class="bg-primary d-inline-block h-25">Height 25%</div> 
+       <div class="bg-primary d-inline-block h-50">Height 50%</div> 
+       <div class="bg-primary d-inline-block h-75">Height 75%</div> 
+       <div class="bg-primary d-inline-block h-auto">Height auto</div> 
+    </div>
+
+    
+    <!-- RELATIVE TO THE VIEWPORT -->
+
+    <div class="bg-primary vh-100">vh-100</div>
+    <div class="bg-primary min-vh-100">min-vh-100</div>
+
+    <div class="bg-primary vw-100">vw-100</div>
+    <div class="bg-primary min-vw-100">min-vw-100</div>
 
 
 
